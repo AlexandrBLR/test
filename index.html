@@ -1,1 +1,103 @@
-eugene787@yandex.ru
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Findeling</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Compiled and minified CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://d1g4amnkr5x29r.cloudfront.net/assets/styles/bundle-cc2ce88e6d.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--CSS custom styles -->
+   <!-- <link rel="stylesheet" type="text/css" href="CSS/style.css">-->
+    <!-- Site Icon-->
+    <link rel="shortcut icon" href="https://d1g4amnkr5x29r.cloudfront.net/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<!--Button Modal Dialog -->
+<div class="col-md-12 col-lg-12 text-center">
+    <h1>Hallo!</h1>
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Modales Fenster
+        Öffnen
+    </button>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <!-- Modal Form content-->
+        <form class="form modal-content">
+            <div class="modal-header">
+                <div class="col-centered">
+                    <h2 class="title">Shop Abonnement</h2>
+                </div>
+            </div>
+            <div class="form-group validate-group col-centered">
+                <label for="ladenname">Ihres Ladenname</label>
+                <input id="ladenname" class="form-control" type="text" placeholder="Ladenname" >
+            </div>
+            <div class="form-group col-centered">
+                <label for="password_ladenname">Passwort</label>
+                <div class="input-group">
+                    <input type="password" id="password_ladenname" class="form-control ng-valid" placeholder="Passwort"
+                           name="pass" autocomplete >
+                    <span class="input-group-btn">
+                            <i class="btn btn-i" id="show_hide" data-val='1'>
+                                <span id="eye" class="fa fa-eye"></span>
+                            </i></span>
+                </div>
+                <a href="https://findeling.de/passwordforgot">Passwort vergessen?</a>
+            </div>
+            <div class="form-group col-centered">
+                <label for="inputGroupSelect">Land</label>
+                <div class="form-group validate-group" id="inputGroupSelect">
+                            <span class="input-group-btn">
+                                <select title="area" class="form-control validate-group" name="area" id="area" required>
+                                    <option value="" selected disabled hidden>Beliebig</option>
+                                    <option value="Baden Wurttemberg">Baden Württemberg</option>
+                                    <option value="Bayern">Bayern</option>
+                                    <option value="Berlin">Berlin</option>
+                                    <option value="Brandenburg">Brandenburg</option>
+                                    <option value="Bremen">Bremen</option>
+                                    <option value="Hamburg">Hamburg</option>
+                                    <option value="Hessen">Hessen</option>
+                                    <option value="Mecklenburg-Vorpommern">Mecklenburg-Vorpommern</option>
+                                    <option value="Niedersachsen">Niedersachsen</option>
+                                    <option value="Nordrhei-Westfalen">Nordrhei-Westfalen</option>
+                                    <option value="Rheinland-Pfalz">Rheinland-Pfalz</option>
+                                    <option value="Saarland">Saarland</option>
+                                    <option value="Sachsen">Sachsen</option>
+                                    <option value="Sachsen-Anhalt">Sachsen-Anhalt</option>
+                                    <option value="Schleswig-Holstein">Schleswig-Holstein</option>
+                                    <option value="Thüringen">Thüringen</option>
+                                </select>
+                            </span>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="row" id="alert_text">
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 text-left">
+                        <button type="button" id="submit_form" class="btn btn-primary">Einloggen</button>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                        <button type="button" class="btn btn-primary btn-default" data-dismiss="modal">Schließen
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--Toggle Fa-Eye Password -->
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-show-password/1.0.3/bootstrap-show-password.min.js"></script>
+<script src="JS/toggleIcon.js"></script>
+<script src="JS/mail.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</body>
+</html>
